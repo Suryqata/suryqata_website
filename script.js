@@ -1927,7 +1927,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	function getCurrentPagePath() {
 		var path = window.location.pathname.split("/").pop();
-		return path || "main.html";
+		return path || "index.html";
 	}
 
 	function slugify(value) {
